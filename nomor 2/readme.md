@@ -1,1 +1,2 @@
-tes
+Method yang dipanggil adalah move() milik class Vehicle dan Car. Output yang dihasilkan adalah "Vehicle is moving" dan "Car is moving".
+Kedua line tersebut berbeda, karena meskipun v1 dan v2 sama-sama bertipe vehicle, namun kedua variabel tersebut merujuk kepada class yang berbeda. v1 merujuk kepada objek asli Vehicle, sedangkan v2 merujuk kepada object Car, yang merupakan inheritance dari Vehicle. Untuk class Car, telah dilakukan override terhadap method move(), sehingga Java menjalankan implementasi dari objek aslinya saat runtime
